@@ -1,0 +1,11 @@
+# ---> MacOS files
+.DS_Store
+
+# ---> Python files
+*.pyc
+dist
+build
+
+# ---> Playground files
+*.logs
+*.db

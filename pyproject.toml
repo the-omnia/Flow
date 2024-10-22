@@ -1,0 +1,10 @@
+[project]
+name = "flow"
+description = "General purpose web framework"
+version = "0.1.0"
+requires-python = ">=3.12"
+
+[tool.mypy]
+warn_return_any = true
+warn_unused_configs = true
+python_version = "3.12"

@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+
+[dev-packages]
+build = "*"
+twine = "*"
+mypy = "*"
+ruff = "*"
+
+[requires]
+python_version = "3.12"
+python_full_version = "3.12.4"
+
+[scripts]
+type-check = "python3 -m mypy ."
